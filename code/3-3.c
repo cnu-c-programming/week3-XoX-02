@@ -11,7 +11,7 @@ int average(int n, ...){
         sum += va_arg(ap, int);
     }
 
-    va_end(ap)
+    va_end(ap);
     return sum / n;
 }
 

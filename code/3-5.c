@@ -21,7 +21,7 @@ void my_sum(char sig,int n,...){
             str[i] = (char)va_arg(ap,int);
         }
         str[n] = '\0';
-        printf("%s",str);
+        printf("%s\n",str);
     }
     else if(sig == 'D'){
         int sum = 0;
